@@ -128,13 +128,13 @@ This implementation plan provides a step-by-step approach to restructure the ser
     - Verify no TypeScript errors
     - _Requirements: 6.7, 11.4_
 
-- [ ] 5. Checkpoint - Verify Configuration
+- [x] 5. Checkpoint - Verify Configuration
   - Ensure TypeScript compiles without errors
   - Ensure `cdk synth` succeeds
   - Ask user if questions arise
 
 - [ ] 6. Phase 4: Create Helper Utilities (Optional - Create as Needed)
-  - [ ] 6.1 Create IAM helper utilities (if needed)
+  - [x] 6.1 Create IAM helper utilities (if needed)
     - Create infrastructure/lib/helpers/iam.ts
     - Define RoleConfig interface
     - Implement createLambdaRole() function
