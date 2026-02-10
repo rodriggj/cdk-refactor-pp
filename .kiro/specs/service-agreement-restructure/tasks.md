@@ -110,7 +110,7 @@ This implementation plan provides a step-by-step approach to restructure the ser
     - Implement getEnvironmentTags() function to merge app and environment tags
     - _Requirements: 6.4_
   
-  - [ ] 4.4 Update bin/app.ts to use new configuration
+  - [x] 4.4 Update bin/app.ts to use new configuration
     - Import config from lib/config.ts
     - Replace inline configuration with config imports
     - Use getEnvironmentConfig() and getEnvironmentTags() helpers
